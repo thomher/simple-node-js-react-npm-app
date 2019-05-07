@@ -13,6 +13,6 @@ pipeline {
         }
     }
     test {
-        /jenkins/scripts/test.sh
+        sh '/jenkins/scripts/test.sh'
     }
 }
